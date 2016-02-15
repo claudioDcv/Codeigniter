@@ -1,0 +1,11 @@
+{% extends 'init.html.twig' %} {% block body %}
+<h1>Inicio: {{user.name}}</h1>
+<div class="row">
+	{% for post in posts %}
+	<div class="col-md-4">
+		<h3>{{ post.nombre }}</h3>
+		<p>{{ post.texto }}</p>
+	</div>
+	{% endfor %}
+</div>
+{% endblock %}

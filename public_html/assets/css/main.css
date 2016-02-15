@@ -1,0 +1,63 @@
+@charset "utf-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+
+.login{
+	background:#F6F6F6;
+	border-radius:8px;
+	padding:15px;
+	font-size:0
+}
+.login label, .registro .datos label{color:#00539A;font-size:14px; font-weight:normal;width:29%; }
+.login input[type="text"], .login input[type="password"], .registro .datos input, .registro .datos select, .registro .datos textarea{background:#fff; box-sizing:border-box; border:solid 1px #999;display: inline-block;font-size:14px; padding:4px; width:70%}
+.login .btn{background:#00539A; color:#fff;margin-left:4px;width:35%}
+.login a{color:#F60; font-size:12px; margin-left:10px}
+
+/*PLACEHOLDER*/
+::-webkit-input-placeholder { /* Safari, Chrome and Opera */
+  color: #CCC; font-style:italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #CCC; font-style:italic!important;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: #CCC; font-style:italic!important;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  color: #CCC; font-style:italic;!important
+}
+
+::-ms-input-placeholder { /* Edge */
+  color: #CCC; font-style:italic!important;
+}
+
+:placeholder-shown { /* Standard one last! */
+ color: #CCC; font-style:italic;
+}
+/**********/
+.registro h2, .registro h3{color:#00539A;font-size:20px; font-weight:600; margin:10px 0}
+.registro h3{color:#666;font-weight:200; font-size:18px}
+.registro label span{font-style:italic; font-size:12px}
+.registro .nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {background-color:#F6F6F6;}
+.registro .nav-tabs li a span{background:#00539A; border-radius:50%;color:#fff; display:inline-block; text-align:center; width:20px; height:20px}
+.registro .nav-tabs > li.active > a span{background:#666}
+.registro .datos{background-color:#F6F6F6;border: 1px solid #ddd;border-top:none; padding:20px 15px}
+.ini .datos{border-top:1px solid #ddd;}
+
+.registro .datos input.rut, .registro .datos input[type="date"], .registro .datos input[type="password"],.registro .datos select, .registro .datos input[type="number"], .registro .datos .btn{width:210px}
+.registro .datos input[type="radio"], .registro .datos input[type="checkbox"]{width:20px}
+.registro .datos .exp{width:50px}
+.registro .datos .btn{background:#F60; color:#fff;cursor:pointer}
+.registro .datos p span{margin-right:10px}
+.registro .datos p .conte_check{display:inline-block;vertical-align:top;}
+.registro .datos .institu{width:50%}
+.registro .datos textarea{vertical-align:top}
